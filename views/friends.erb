@@ -13,9 +13,9 @@
       <h2> <%= friend %> </h2>
     <% end %> -->
 
-    <% @friends.each do |friend| %>
-      <h2><%= friend %></h2>
-    <% end %>
+    <h2><% @friends.each do |friend| %>
+       <%= friend %> 
+    <% end %> </h2>
 
   </body>
 </html>
